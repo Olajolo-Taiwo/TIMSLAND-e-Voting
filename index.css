@@ -21,7 +21,7 @@
 /* Styling the body of the index page*/
 .page_body {padding-top: 70px;}
 
-.logo {width: 400px;}
+.logo {width: 380px;}
 
 .header-text {
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -100,7 +100,7 @@ a:hover {
 }
 
 /* INHERITED STYLE*/
-.timsland {font-size: 16.5px;}
+.timsland {font-size: 14px;}
 
 .text_body {
   font-size: 25px;

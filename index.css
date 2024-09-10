@@ -4,7 +4,7 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  height: 10%;
+  height: 8%;
   right: 0px;
   z-index: 100px;
   background-color:rgb(251, 251, 255);
@@ -17,6 +17,15 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.timsland-header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 8%;
+  right: 0px;
+  z-index: 100px;
+  font-size: 14px;}
+}
 
 /* Styling the body of the index page*/
 .page_body {padding-top: 70px;}
@@ -61,6 +70,8 @@ button:hover {
 /* STYLING THE e-VOTE PAGE*/
 .ebody {background-color: antiquewhite;}
 
+.timsland {font-size: 14px;}
+
 input[type=text], select, textarea {
   width: 50%;
   padding: 10px;
@@ -100,8 +111,6 @@ a:hover {
 }
 
 /* INHERITED STYLE*/
-.timsland {font-size: 14px;}
-
 .text_body {
   font-size: 25px;
   font-family: fantasy;

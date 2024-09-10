@@ -4,7 +4,7 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  height: 8%;
+  height: 12%;
   right: 0px;
   z-index: 100px;
   background-color:rgb(251, 251, 255);
@@ -19,8 +19,8 @@
 
 .timsland-header {
   position: fixed;
-  top: 6.8%
-  left: 0px;
+  top: 12%
+  left: 1%;
   height: 8%;
   right: 0px;
   z-index: 100px;

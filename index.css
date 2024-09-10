@@ -28,7 +28,9 @@
 }
 
 /* Styling the body of the index page*/
-.page_body {padding-top: 70px;}
+.page_body {padding-top: 70px;
+             margin-top: 8.2%}
+
 
 .logo {width: 380px;}
 
@@ -37,6 +39,7 @@
  font-size: 30px;
  display: block;
  margin-bottom: 0px;
+
 }
 .text {
  font-size: 17.5px;

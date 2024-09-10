@@ -1,0 +1,120 @@
+
+/* styling the header section of the index page */
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 8%;
+  right: 0px;
+  z-index: 100px;
+  background-color:rgb(251, 251, 255);
+  color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Styling the body of the index page*/
+.page_body {padding-top: 70px;}
+
+.logo {width: 400px;}
+
+.header-text {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 30px;
+ display: block;
+ margin-bottom: 0px;
+}
+.text {
+ font-size: 17.5px;
+ font-family: times new roman;
+ margin-top: 0px;
+}
+
+button {
+  background-color: white;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  height: 36px;
+  width: 100px;
+  border-width: 1px;
+  color: rgb(108, 117, 125) ;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.15s, color 0.15s;
+  align-items: center;
+  display: block;
+  margin-top: 20px;
+  justify-content: center;
+}
+button:hover {
+  background-color: rgb(108, 117, 125) ;
+  color: white;
+}
+
+
+/* STYLING THE e-VOTE PAGE*/
+.ebody {background-color: antiquewhite;}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  resize: vertical;
+  background-color:aliceblue;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+  color: gray;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1), 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+aside {font-weight: bolder;}
+
+p {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+a {
+  background-color: white;
+  padding: 8px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+a:hover {
+  background-color: rgb(108, 117, 125) ;
+  color: white;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+/* STYLING THE FEEDBACK PAGE*/
+.logo-image {
+  width: 20px;
+  height: 0px;
+}
+
+/* INHERITED STYLE*/
+.timsland {font-size: 16.5px;}
+
+.text_body {
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+@media screen and (max-width: 600px) { input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+  }
+}
+
+
+
+
+
+

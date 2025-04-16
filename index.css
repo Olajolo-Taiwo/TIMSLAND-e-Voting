@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 3rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1000;
 }
@@ -38,8 +38,9 @@
 }
 
 button {
-  width: 80%;
+  width: 100%;
   max-width: 200px;
+  padding: 15px;
   margin: 20px auto;
   display: block;
 }
@@ -51,7 +52,7 @@ button:hover {
 
 
 /* STYLING THE e-VOTE PAGE*/
-.ebody {background-color: antiquewhite;}
+.ebody {background-color: white;}
 
 .timsland {font-size: 12px;}
 

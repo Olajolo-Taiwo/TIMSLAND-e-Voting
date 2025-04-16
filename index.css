@@ -1,134 +1,118 @@
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: rgb(251, 251, 255);
-  color: black;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3rem;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
+position: fixed;
+top: 0px;
+left: 0px;
+height: 8%;
+right: 0px;
+z-index: 100px;
+background-color:rgb(251, 251, 255);
+color: black;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+padding-bottom: 20px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 
 /* Styling the body of the index page*/
-.page_body {margin-top: 100px;}
+.page_body {margin-top: 90px;}
 
-
-.logo {
-  width: 90%;
-  max-width: 400px;
-  height: auto;
-}
-.left-align {
-  text-align: left;
-  margin-left: 30px;
-}
+.logo {width: 380px;}
 
 .header-text {
-  font-size: 1.8rem;
-  margin-top: 10%;
-  text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 25px;
+display: block;
+margin-bottom: 0px;
+margin-top: 8.2%
 }
-
 .text {
-  font-size: 1rem;
-  text-align: center;
-  padding: 0 1rem;
+font-size: 16.5px;
+font-family: times new roman;
+margin-top: 0px;
 }
 
 button {
-  width: 100%;
-  max-width: 200px;
-  padding: 15px;
-  margin: 20px auto;
-  display: block;
+background-color: white;
+border-color: rgb(108, 117, 125);
+border-style: solid;
+height: 36px;
+width: 100px;
+border-width: 1px;
+color: rgb(108, 117, 125) ;
+border-radius: 2px;
+cursor: pointer;
+margin-bottom: 15px;
+transition: background-color 0.15s, color 0.15s;
+align-items: center;
+display: block;
+margin-top: 20px;
+justify-content: center;
 }
-
 button:hover {
-  background-color: rgb(108, 117, 125) ;
-  color: white;
+background-color: rgb(108, 117, 125) ;
+color: white;
 }
-
 
 /* STYLING THE e-VOTE PAGE*/
-.ebody {background-color: white;}
+.ebody {background-color: antiquewhite;}
 
 .timsland {font-size: 12px;}
 
 input[type=text], select, textarea {
-  width: 50%;
-  padding: 10px;
-  border: none;
-  resize: vertical;
-  background-color:aliceblue;
-  font-size: 12px;
-  border-radius: 20px;
-  border: none;
-  color: gray;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1), 0 6px 10px rgba(0, 0, 0, 0.2);
+width: 50%;
+padding: 10px;
+border: none;
+resize: vertical;
+background-color:aliceblue;
+font-size: 12px;
+border-radius: 20px;
+border: none;
+color: gray;
+box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1), 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 aside {font-weight: bolder;}
 
 p {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
+padding: 12px 12px 12px 0;
+display: inline-block;
 }
 
 a {
-  background-color: white;
-  padding: 8px;
-  border-radius: 2px;
-  cursor: pointer;
+background-color: white;
+padding: 8px;
+border-radius: 2px;
+cursor: pointer;
 }
 a:hover {
-  background-color: rgb(108, 117, 125) ;
-  color: white;
-  transition: background-color 0.15s, color 0.15s;
+background-color: rgb(108, 117, 125) ;
+color: white;
+transition: background-color 0.15s, color 0.15s;
 }
 
 /* STYLING THE FEEDBACK PAGE*/
 .logo-image {
-  width: 20px;
-  height: 0px;
+width: 20px;
+height: 0px;
 }
 
 /* INHERITED STYLE*/
 .text_body {
-  font-size: 23px;
-  font-family: fantasy;
+font-size: 23px;
+font-family: fantasy;
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
+@media screen and (max-width: 768px) { input[type=submit] {
+width: 100%;
+margin-top: 0;
+}
+.header {
+position: fixed;
+top: 0px;
+left: 0px;
+height: 8%;
+right: 0px;
+}
   }
-@media screen and (max-width: 768px) {
-  .header-text {
-    font-size: 1.5rem;
-  }
-
-  .text_body {
-    font-size: 1.2rem;
-  }
-
-  .text {
-    font-size: 0.95rem;
-    padding: 0 10px;
-  }
-
-  input[type=text], select, textarea {
-    width: 90%;
-  }
-
-  button {
-    width: 90%;
-    max-width: 200px;
-  }
-                        }

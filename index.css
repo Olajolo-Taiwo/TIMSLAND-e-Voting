@@ -1,59 +1,49 @@
-
-/* styling the header section of the index page */
 .header {
   position: fixed;
-  top: 0px;
-  left: 0px;
-  height: 8%;
-  right: 0px;
-  z-index: 100px;
-  background-color:rgb(251, 251, 255);
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(251, 251, 255);
   color: black;
   text-align: center;
-  align-items: center;
-  justify-content: center;
   display: flex;
-  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
 }
 
 
 /* Styling the body of the index page*/
-.page_body {margin-top: 90px;}
+.page_body {margin-top: 100px;}
 
 
-.logo {width: 380px;}
+.logo {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+}
 
 .header-text {
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- font-size: 25px;
- display: block;
- margin-bottom: 0px;
-  margin-top: 8.2%
+  font-size: 1.8rem;
+  margin-top: 10%;
+  text-align: center;
 }
+
 .text {
- font-size: 16.5px;
- font-family: times new roman;
- margin-top: 0px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 button {
-  background-color: white;
-  border-color: rgb(108, 117, 125);
-  border-style: solid;
-  height: 36px;
-  width: 100px;
-  border-width: 1px;
-  color: rgb(108, 117, 125) ;
-  border-radius: 2px;
-  cursor: pointer;
-  margin-bottom: 15px;
-  transition: background-color 0.15s, color 0.15s;
-  align-items: center;
+  width: 80%;
+  max-width: 200px;
+  margin: 20px auto;
   display: block;
-  margin-top: 20px;
-  justify-content: center;
 }
+
 button:hover {
   background-color: rgb(108, 117, 125) ;
   color: white;
@@ -109,21 +99,31 @@ a:hover {
   font-family: fantasy;
 }
 
-@media screen and (max-width: 768px) { input[type=submit] {
-  width: 100%;
-  margin-top: 0;
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
   }
-   .header {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  height: 8%;
-  right: 0px;
-   }
-}
+@media screen and (max-width: 768px) {
+  .header-text {
+    font-size: 1.5rem;
+  }
 
+  .text_body {
+    font-size: 1.2rem;
+  }
 
+  .text {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
 
+  input[type=text], select, textarea {
+    width: 90%;
+  }
 
-
-
+  button {
+    width: 90%;
+    max-width: 200px;
+  }
+                        }

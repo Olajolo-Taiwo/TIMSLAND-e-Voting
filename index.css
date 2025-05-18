@@ -22,13 +22,13 @@ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
 
 .header-text {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 25px;
+font-size: 3rem;
 display: block;
 margin-bottom: 0px;
 margin-top: 8.2%
 }
 .text {
-font-size: 16.5px;
+font-size: 2rem;
 font-family: times new roman;
 margin-top: 0px;
 }
@@ -63,7 +63,7 @@ width: 50%;
 padding: 10px;
 border: none;
 resize: vertical;
-background-color:rgb(0, 71, 134);
+background-color:rgb(111, 175, 232);
 font-size: 12px;
 border-radius: 20px;
 border: none;

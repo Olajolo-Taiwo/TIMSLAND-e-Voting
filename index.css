@@ -28,7 +28,7 @@ margin-bottom: 0px;
 margin-top: 8.2%
 }
 .text {
-font-size: 2rem;
+font-size: 16.5px;
 font-family: times new roman;
 margin-top: 0px;
 }
@@ -56,14 +56,14 @@ color: white;
 }
 
 /* STYLING THE e-VOTE PAGE*/
-.timsland {font-size: 12px;}
+.timsland {font-size: 3rem;}
 
 input[type=text], select, textarea {
 width: 50%;
 padding: 10px;
 border: none;
 resize: vertical;
-background-color:rgb(111, 175, 232);
+background-color:white;
 font-size: 12px;
 border-radius: 20px;
 border: none;

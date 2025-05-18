@@ -16,7 +16,7 @@ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Styling the body of the index page*/
-.page_body {margin-top: 90px;}
+.page_body {margin-top: 120px;}
 
 .logo {width: 380px;}
 
@@ -28,7 +28,7 @@ margin-bottom: 0px;
 margin-top: 8.2%
 }
 .text {
-font-size: 16.5px;
+font-size: 26.5px;
 font-family: times new roman;
 margin-top: 0px;
 }
@@ -59,12 +59,12 @@ color: white;
 .timsland {font-size: 3rem;}
 
 input[type=text], select, textarea {
-width: 50%;
-padding: 10px;
+width: 70%;
+padding: 20px;
 border: none;
 resize: vertical;
 background-color:white;
-font-size: 12px;
+font-size: 22px;
 border-radius: 20px;
 border: none;
 color: gray;
@@ -98,11 +98,15 @@ height: 0px;
 
 /* INHERITED STYLE*/
 .text_body {
-font-size: 23px;
+font-size: 33px;
 font-family: fantasy;
 }
 
-@media screen and (max-width: 768px) { input[type=submit] {
+@media screen and (max-width: 640px) { 
+.timsland {font-size: 1.5rem;}
+.page_body {margin-top: 90px;}
+  
+input[type=submit] {
 width: 100%;
 margin-top: 0;
 }
@@ -114,3 +118,17 @@ height: 8%;
 right: 0px;
 }
   }
+
+  input[type=text], select, textarea {
+    width: 50%;
+    padding: 10px;
+    font-size: 12px;
+  }
+  .text_body {
+    font-size: 23px;
+
+    }
+
+    .text {
+      font-size: 16.5px;
+      }

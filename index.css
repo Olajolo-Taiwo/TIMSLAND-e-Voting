@@ -38,7 +38,7 @@ background-color: white;
 border-color: rgb(108, 117, 125);
 border-style: solid;
 height: 36px;
-width: 100px;
+width: 150px;
 border-width: 1px;
 color: rgb(108, 117, 125) ;
 border-radius: 2px;
@@ -60,11 +60,11 @@ color: white;
 
 input[type=text], select, textarea {
 width: 70%;
-padding: 20px;
+padding: 30px;
 border: none;
 resize: vertical;
 background-color:white;
-font-size: 22px;
+font-size: 25px;
 border-radius: 20px;
 border: none;
 color: gray;
@@ -103,7 +103,7 @@ font-family: fantasy;
 }
 
 @media screen and (max-width: 640px) { 
-.timsland {font-size: 1.5rem;}
+.timsland {font-size: 1.3rem;}
 .page_body {margin-top: 90px;}
   
 input[type=submit] {
@@ -125,10 +125,13 @@ right: 0px;
     font-size: 12px;
   }
   .text_body {
-    font-size: 23px;
+    font-size: 20px;
 
     }
 
     .text {
       font-size: 16.5px;
       }
+    button{
+      width: 100px;
+    }
